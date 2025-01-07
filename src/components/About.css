@@ -1,0 +1,59 @@
+/* About.css */
+.about {
+    display: flex; /* Flexbox for horizontal alignment */
+    align-items: flex-start; /* Align items at the top */
+    background-color: #f9f9f9; /* Light color background */
+    color: #333; /* Dark text for contrast */
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Inner spacing */
+    gap: 20px; /* Space between sections */
+  }
+  
+  .about > div {
+    flex: 1; /* Equal width for the first section */
+  }
+  
+  .about h2 {
+    color: #4CAF50; /* Green accent for headings */
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .about ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 5px 0;
+  }
+  
+  .about ul li::before {
+    content: "•"; /* Custom bullet point */
+    color: #4CAF50; /* Accent color for bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+  }
+  
+  .container {
+    max-width: 1200px; /* Restrict content width for readability */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
